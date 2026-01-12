@@ -8,22 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dc07344-8764-4f33-bbc0-089e46038eac" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameModel/Board.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameModel/Board.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameModel/GameState.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameModel/Tetromino.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameModel/Tetromino.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameModel/UIModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameModel/UIModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameObject/UIObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/UIObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InputCommand/Commands.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InputCommand/Commands.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/MainGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Main/MainGame.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager/GameModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameModel/GameModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Manager/TetriminoManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/TetriminoManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resource/AscciObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Resource/AscciObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scene/StageScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scene/StageScene.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scene/TitleScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scene/TitleScene.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Util/Colors.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Util/Point.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Util/TetrominoFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Util/TetrominoFactory.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +126,7 @@
       <workItem from="1768176307155" duration="1493000" />
       <workItem from="1768177994891" duration="875000" />
       <workItem from="1768179002365" duration="513000" />
-      <workItem from="1768179605244" duration="13724000" />
+      <workItem from="1768179605244" duration="14413000" />
     </task>
     <servers />
   </component>

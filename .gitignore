@@ -1,8 +1,8 @@
 bin/
 obj/
-.idea/
 /packages/
 riderModule.iml
 /_ReSharper.Caches/
 xml/
 /.idea
+*.xml
