@@ -41,7 +41,6 @@ public class StageScene : IScene
         _gameModel.Clear();
         _inputManager.ClearCommands();
     }
-
     
     public void Update(double deltaTime)
     {

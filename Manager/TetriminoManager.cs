@@ -59,6 +59,7 @@
         Next = null;
         Hold = null;
         FallTimer = 0d;
+        FallInterval = 1d;
     }
 
     private void SpawnNext()
@@ -118,7 +119,7 @@
     public void MoveTetromino(GameModel _model, int dir)
     {
         if (Current == null) return;
-        if(_model.Board.CanMove(Current, dir))
+        if(_model.Board.CanPlace(Current, dir, 0))
             Current.Position.X += dir;
         
         GhostUpdate(_model.Board);

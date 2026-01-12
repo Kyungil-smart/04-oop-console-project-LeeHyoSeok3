@@ -8,9 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dc07344-8764-4f33-bbc0-089e46038eac" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameModel/Board.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameModel/Board.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameObject/BoardView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/BoardView.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Manager/TetriminoManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/TetriminoManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scene/StageScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scene/StageScene.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +128,7 @@
       <workItem from="1768176307155" duration="1493000" />
       <workItem from="1768177994891" duration="875000" />
       <workItem from="1768179002365" duration="513000" />
-      <workItem from="1768179605244" duration="14413000" />
+      <workItem from="1768179605244" duration="16429000" />
     </task>
     <servers />
   </component>

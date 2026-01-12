@@ -48,16 +48,6 @@
         }
     }
     
-    public bool CanMove(Tetromino t, int dx)
-    {
-        foreach (var b in t.Blocks)
-        {
-            int x = t.Position.X + (b.X * 2) + dx;
-            if(x < 0 || x + 1 >= Width) return false;
-        }
-        return true;
-    }
-    
     public bool CanPlace(Tetromino t, int dx, int dy)
     {
         foreach (var b in t.Blocks)
