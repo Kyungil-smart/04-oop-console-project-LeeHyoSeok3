@@ -44,7 +44,6 @@
                 
                 t.Position.X += -px;
                 t.Position.Y += -py;
-                break;
             }
         }
     }

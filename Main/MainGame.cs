@@ -12,7 +12,7 @@ public class MainGame
     {
         sceneManager = new();
         inputManager = new();
-        _gameModel = new();
+        _gameModel = new(sceneManager, inputManager);
         renderer = new();
         
         sceneManager.ChangeScene(new TitleScene(
@@ -30,7 +30,7 @@ public class MainGame
 
     public void Run()
     {
-        const double frameTime = 1000.0 / 60;
+        const double frameTime = 1000.0 / 120;
         Stopwatch stopwatch = Stopwatch.StartNew();
         double previousTime = stopwatch.Elapsed.TotalMilliseconds;
 

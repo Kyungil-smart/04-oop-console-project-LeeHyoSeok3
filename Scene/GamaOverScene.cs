@@ -1,13 +1,13 @@
-﻿public class TitleScene : IScene
+public class GameOverScene : IScene
 {
     private InputManager _inputManager;
     private SceneManager _sceneManager;
     private GameModel _gameModel;
         
     
-    public TitleScene(SceneManager sceneManager,
-                      GameModel gameModel,
-                      InputManager inputManager)
+    public GameOverScene(SceneManager sceneManager,
+        GameModel gameModel,
+        InputManager inputManager)
     {
         _inputManager = inputManager;
         _sceneManager = sceneManager;
@@ -16,9 +16,12 @@
     
     public void Enter(RenderState state)
     {
-        var logo = AscciObject.Logo;
-        for (int i = 0; i < logo.Length; i++)
-            state.DrawRequest(0,i,logo[i]);
+        state.ClearDrawRequest();
+        for (int y = 0; y < Renderer._height; y++)
+            state.DrawRequest(0, y, new string(' ', Renderer._width));
+        
+        state.DrawRequest(0, 0, "GameOver");
+        state.DrawRequest(0, 1, "Press enter to Retry");
         
         _inputManager.BindCommand
         (ConsoleKey.Enter, new StartGameCommand(

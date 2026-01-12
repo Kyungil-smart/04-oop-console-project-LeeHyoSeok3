@@ -1,6 +1,4 @@
-﻿namespace ConsoleProject_Tetris;
-
-public static class AscciObject
+﻿public static class AscciObject
 {
     public static readonly string[] Logo =
     {
@@ -49,34 +47,23 @@ public static class AscciObject
         "######################"
     };
 
-    public static readonly string[] IMino = { "████████" };
-    public static readonly string[] OMino =
+    public static readonly string[] Help =
     {
-        "████," +
-        "████"
+        "---- HELP ----",
+        "| LEFT    ←  |",
+        "| RIGHT   →  |",
+        "| DOWN    ↓  |",
+        "| ROTATE  ↑  |",
+        "| SPACE  DROP|",
+        "|   Z    HOLD|",
+        "--------------"
     };
-    public static readonly string[] TMino = 
-        { "  ██," +
-          "██████" };
-    public static readonly string[] SMino =
+
+    public static readonly string[] Stat =
     {
-        "  ████," +
-        "████"
-    };
-    public static readonly string[] ZMino =
-    {
-        "████," +
-        "  ████"
-    };
-    public static readonly string[] JMino =
-    {
-        "██," +
-        "██████"
-    };
-    public static readonly string[] LMino =
-    {
-        "    ██," +
-        "██████"
+        "---- STAT ----",
+        "| SCORE      |",
+        "| LEVEL      |",
+        "--------------"
     };
 }
-
